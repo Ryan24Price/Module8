@@ -1,0 +1,31 @@
+{
+    "user":{
+        "_id": null,
+        "name": "Ryan_P",
+        "profilePic": "profilePic.png",
+        "email": "",
+        "created_at": "_timestamp"
+    },
+    "posts":{
+        "_id": null,
+        "title": "My First Post",
+        "description": "The first post with random text.",
+        "image": null,
+        "date": "_timestamp",
+        "author": "_userID",
+        "comments": ["_commentID_1", "_commentID_2"]
+    },
+    "comments":{
+        "_id": null,
+        "likes": 5,
+        "dislikes": 9,
+        "commenter": "_userID",
+        "post": "_postID",
+        "comment":"A comment on a post"
+    },
+    "favorites":{
+        "_id": null,
+        "favored_by":["_userID"],
+        "favored_post":["_postID"]
+    }
+}
