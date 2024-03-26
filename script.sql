@@ -32,4 +32,3 @@ CREATE TABLE comments (
     FOREIGN KEY (parent_post_id) REFERENCES posts(post_id)
 );
 
-
