@@ -1,31 +1,33 @@
 {
-    "user":{
-        "_id": null,
+    "user": {
+        "_id": "USER_ID",
         "name": "Ryan_P",
         "profilePic": "profilePic.png",
-        "email": "",
-        "created_at": "_timestamp"
+        "email": "jake@statfarm.com",
+        "created_at": "_TIMESTAMP"
     },
-    "posts":{
-        "_id": null,
+    "posts": {
+        "_id": "POST_ID",
         "title": "My First Post",
         "description": "The first post with random text.",
         "image": null,
-        "date": "_timestamp",
-        "author": "_userID",
-        "comments": ["_commentID_1", "_commentID_2"]
+        "date": "_TIMESTAMP",
+        "author": "USER_ID",
+        "comments": ["COMMENT_ID_1", "COMMENT_ID_2"]
     },
-    "comments":{
-        "_id": null,
-        "likes": 5,
-        "dislikes": 9,
-        "commenter": "_userID",
-        "post": "_postID",
-        "comment":"A comment on a post"
+    "comments": {
+        "_id": "COMMENT_ID",
+        "likes": 4,
+        "dislikes": 7,
+        "commenter": "USER_ID",
+        "post": "POST_ID",
+        "comment": "A comment on a post"
     },
-    "favorites":{
-        "_id": null,
-        "favored_by":["_userID"],
-        "favored_post":["_postID"]
+    "favorites": {
+        "_id": "FAVORITE_ID",
+        "favored_by": ["USER_ID"],
+        "favored_post": ["POST_ID"]
     }
 }
+
+
